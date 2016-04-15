@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC379A471CC0C2A300558E59 /* AppInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC379A461CC0C2A300558E59 /* AppInfoView.xib */; };
 		CCBBE0A71CB897F1003162A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBBE0A61CB897F1003162A7 /* main.m */; };
 		CCBBE0AA1CB897F1003162A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBBE0A91CB897F1003162A7 /* AppDelegate.m */; };
 		CCBBE0AD1CB897F1003162A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBBE0AC1CB897F1003162A7 /* ViewController.m */; };
@@ -16,11 +17,11 @@
 		CCBBE0B81CB897F1003162A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCBBE0B61CB897F1003162A7 /* LaunchScreen.storyboard */; };
 		CCBBE0C01CB89CA4003162A7 /* app.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCBBE0BF1CB89CA4003162A7 /* app.plist */; };
 		CCBBE0C31CB8C68E003162A7 /* AppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBBE0C21CB8C68E003162A7 /* AppInfo.m */; };
-		CCBBE0ED1CB902ED003162A7 /* AppInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBBE0EC1CB902ED003162A7 /* AppInfoView.xib */; };
 		CCBBE0F31CB90C5F003162A7 /* AppInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBBE0F21CB90C5F003162A7 /* AppInfoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC379A461CC0C2A300558E59 /* AppInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppInfoView.xib; sourceTree = "<group>"; };
 		CCBBE0A21CB897F1003162A7 /* 06-06生成九宫格的view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "06-06生成九宫格的view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBBE0A61CB897F1003162A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCBBE0A81CB897F1003162A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		CCBBE0BF1CB89CA4003162A7 /* app.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = app.plist; sourceTree = "<group>"; };
 		CCBBE0C11CB8C68E003162A7 /* AppInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfo.h; sourceTree = "<group>"; };
 		CCBBE0C21CB8C68E003162A7 /* AppInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfo.m; sourceTree = "<group>"; };
-		CCBBE0EC1CB902ED003162A7 /* AppInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppInfoView.xib; path = ../../../../../../../Documents/AppInfoView.xib; sourceTree = "<group>"; };
 		CCBBE0F11CB90C5F003162A7 /* AppInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppInfoView.h; path = ../AppInfoView.h; sourceTree = "<group>"; };
 		CCBBE0F21CB90C5F003162A7 /* AppInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppInfoView.m; path = ../AppInfoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,9 +123,9 @@
 			children = (
 				CCBBE0AE1CB897F1003162A7 /* Main.storyboard */,
 				CCBBE0B61CB897F1003162A7 /* LaunchScreen.storyboard */,
+				CC379A461CC0C2A300558E59 /* AppInfoView.xib */,
 				CCBBE0F11CB90C5F003162A7 /* AppInfoView.h */,
 				CCBBE0F21CB90C5F003162A7 /* AppInfoView.m */,
-				CCBBE0EC1CB902ED003162A7 /* AppInfoView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -196,7 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCBBE0ED1CB902ED003162A7 /* AppInfoView.xib in Resources */,
+				CC379A471CC0C2A300558E59 /* AppInfoView.xib in Resources */,
 				CCBBE0C01CB89CA4003162A7 /* app.plist in Resources */,
 				CCBBE0B81CB897F1003162A7 /* LaunchScreen.storyboard in Resources */,
 				CCBBE0B51CB897F1003162A7 /* Assets.xcassets in Resources */,
